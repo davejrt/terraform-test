@@ -14,6 +14,6 @@ resource "aws_instance" "web2" {
 
   tags = {
     Name     = "HelloWorld"
-    lifetime = "1h"
+    lifetime = "2h"
   }
 }
