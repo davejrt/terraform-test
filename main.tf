@@ -7,3 +7,5 @@ resource "aws_instance" "web" {
     lifetime = "1h"
   }
 }
+
+resource "null_resource" "example" {}
