@@ -13,7 +13,7 @@ resource "aws_instance" "web2" {
   instance_type = "t2.micro"
 
   tags = {
-    Name     = "HelloWorld"
+    Name     = "Hola Mundo"
     lifetime = "2h"
   }
 }
