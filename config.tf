@@ -4,7 +4,7 @@ terraform {
     organization = "davejrt_test"
 
     workspaces {
-      name = "ec2_test"
+      name = "forge_test"
     }
   }
 }
