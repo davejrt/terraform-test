@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
 
   tags = {
     Name     = "HelloWorld"
-    lifetime = "2h"
+    lifetime = "4h"
   }
 }
 
@@ -14,6 +14,6 @@ resource "aws_instance" "web2" {
 
   tags = {
     Name     = "Hola Mundo"
-    lifetime = "2h"
+    lifetime = "4h"
   }
 }
