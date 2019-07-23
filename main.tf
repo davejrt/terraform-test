@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
 
   tags = {
     Name     = "HelloWorld"
-    lifetime = "2h"
+    lifetime = "1h"
   }
 }
 

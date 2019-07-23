@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "davejrt_test"
+    organization = "puppet-forge"
 
     workspaces {
       name = "forge_test"
